@@ -35,7 +35,7 @@ Java
         Intent i = new Intent(this,PixaBayActivity.class);
         i.putExtra(PixaBayActivity.INTENT.key,"your api key");
         i.putExtra(PixaBayActivity.INTENT.query,"android"); // this parameter will be used as query on pixabay
-        i.putExtra(PixaBayActivity.INTENT.collumn,1); // no of column displayed is the list
+        i.putExtra(PixaBayActivity.INTENT.collumn,1); // no of column displayed in the list
         startActivity(i);
 ```
 Kotlin
@@ -43,7 +43,7 @@ Kotlin
         val intent = Intent(this,PixaBayActivity::class.java)
         intent.putExtra(PixaBayActivity.INTENT.key,"your api key")
         intent.putExtra(PixaBayActivity.INTENT.query,"flower") // this parameter will be used as query on pixabay
-        intent.putExtra(PixaBayActivity.INTENT.collumn,3) // no of column displayed is the list
+        intent.putExtra(PixaBayActivity.INTENT.collumn,3) // no of column displayed in the list
         startActivity(intent)
 ```
 
