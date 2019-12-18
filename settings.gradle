@@ -1,0 +1,2 @@
+include ':app', ':pixabayloader'
+rootProject.name='PicBayImages'
