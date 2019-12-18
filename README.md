@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/Rockerdx/SimplePixabay.svg)](https://jitpack.io/#Rockerdx/SimplePixabay)
+
 # Project Title
 
 Simple Pixabay Image Loader with RecyclerView
@@ -23,7 +25,7 @@ Step 2. Add the dependency
 
 ```
 dependencies {
-	        implementation 'com.github.Rockerdx:SimplePixabay:Tag'
+	        implementation 'com.github.Rockerdx:SimplePixabay:v0.1'
 	}
 ```
 Step 3. Add this code to start the activity
